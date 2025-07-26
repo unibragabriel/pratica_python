@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de [Seu Nome]</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="/imagens/foto-perfil.png" alt="Foto de [Seu Nome]" class="profile-img">
+                <h1>Gabriel Arnaud</h1>
+                <p class="profession">Professor</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="sobre" class="card">
+            <h2>Sobre Mim</h2>
+            <p>Texto introdutório sobre você, suas aspirações profissionais e características pessoais relevantes. Fale brevemente sobre sua trajetória e objetivos.</p>
+        </section>
+
+        <section id="experiencia" class="card">
+            <h2>Experiência Profissional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Cargo Ocupado</h3>
+                    <p class="company">Nome da Empresa</p>
+                    <p class="period">Mês/Ano - Mês/Ano</p>
+                    <ul class="responsibilities">
+                        <li>Responsabilidade principal 1</li>
+                        <li>Responsabilidade principal 2</li>
+                        <li>Responsabilidade principal 3</li>
+                    </ul>
+                </div>
+                <!-- Adicione mais itens de experiência conforme necessário -->
+            </div>
+        </section>
+
+        <section id="formacao" class="card">
+            <h2>Formação Acadêmica</h2>
+            <div class="education-item">
+                <h3>Nome do Curso</h3>
+                <p class="institution">Nome da Instituição</p>
+                <p class="period">Mês/Ano - Mês/Ano</p>
+            </div>
+            <!-- Adicione mais itens de formação conforme necessário -->
+        </section>
+
+        <section id="habilidades" class="card">
+            <h2>Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Técnicas</h3>
+                    <ul>
+                        <li>Habilidade 1</li>
+                        <li>Habilidade 2</li>
+                        <li>Habilidade 3</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Interpessoais</h3>
+                    <ul>
+                        <li>Habilidade 1</li>
+                        <li>Habilidade 2</li>
+                        <li>Habilidade 3</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li>Idioma 1 - Nível</li>
+                        <li>Idioma 2 - Nível</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="card">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> seuemail@exemplo.com</p>
+                <p><strong>Telefone:</strong> (XX) XXXX-XXXX</p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/seu-perfil" target="_blank">linkedin.com/seu-perfil</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/seu-usuario" target="_blank">github.com/seu-usuario</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> [Seu Nome]. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
